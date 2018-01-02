@@ -1,0 +1,162 @@
+/*universal style*/
+body{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+
+}
+
+/* header */
+#header{
+  height: 69px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  background-color: black;
+  padding: 8px;
+  margin-top: 0;
+  border-bottom:1px solid seashell;
+}
+
+.logo{
+  padding-left: 10px;
+}
+
+.logo img{
+  height: 50px;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 500px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+nav li{
+  display: inline-block;
+  padding: 20px 10px;
+  margin: 10px;
+}
+
+nav a{
+  color: white;
+}
+
+/*mission*/
+
+#mission{
+  display: flex;
+  justify-content: center;
+  top: 200px;
+  padding-top: 200px;
+}
+
+#mission{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+#mission .background{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#mission .content{
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  padding-top: 5px;
+
+}
+
+/*featured*/
+
+#featured{
+  width: 100%;
+  padding-top: 10px;
+  padding: 10px;
+
+}
+
+.Teas{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.Teas .group{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+
+}
+
+#featured img{
+  height: 200px;
+  width: 300px;
+}
+
+
+.Tea{
+  margin: 10px;
+}
+
+/*location*/
+
+#locations{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 70px;
+
+}
+
+.sub-locations{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 20px 200px;
+
+}
+
+#location .title{
+  margin-bottom: 15px;
+}
+
+#locations .location{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*footer*/
+
+.contact{
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.copyright{
+  text-align: left;
+}
